@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness zone</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function changeHeaderColor() {
+            var headerItem2 = document.querySelector('.item2');
+
+            headerItem2.addEventListener('mouseover', function() {
+                this.style.color = 'blue';
+            });
+
+            headerItem2.addEventListener('mouseout', function() {
+                this.style.color = 'white';
+            });
+        }
+    </script>
+</head>
+<body onload="changeHeaderColor()">
+    <header>
+        <img src="muhammad-ali-sports-sport-wallpaper-preview.jpg" alt="Fitness Zone Image">
+        <img id="header_image_2" src="images.jpeg" alt="boxing gloves">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="#">Location</a>
+            <a href="aboutus.html">About</a>
+            <a href="#">Contact</a>
+            <a href="signup.html" class="signup">Sign up</a>
+        </nav>
+        <h1>FIGHT LIKE A <br><span>CHAMPION</span></h1>
+        <h1 class="item2">Fitness zone</h1>
+    </header>
+    <main>
+        <img src="muhammad-ali-in-the-ring-training-ahead-of-his-upcoming-fight-with-richard-dunn-ali-won-the-fight-by-tko-in-round-5-23rd-may-1976-M9365N.jpg" alt="Muhammad Ali in the ring">
+        <div class="para">
+            <h1>"Elevate Your Fitness Game: Conquer the Iron Paradise!"</h1>
+            <p>Break limits, set goals, and redefine what's<br> possible transform not just your <br>physique, but your entire outlook on life<br>.A journey of self-discovery, strength,<br> and resilience.Lay the foundation for a <br>stronger, healthier, and more empowered you.</p>
+        </div>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="#">Terms & Condition</a>
+            <span>|</span>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/"><img src="download.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/"><img src="download (5).jpeg" alt="Instagram"></a>
+            <a href="https://twitter.com/"><img src="download (1).png" alt="Twitter"></a>
+        </div>
+    </footer>
+</body>
+</html>
